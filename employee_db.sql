@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 01, 2024 at 05:50 PM
+-- Generation Time: Oct 02, 2024 at 07:46 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -38,7 +38,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `email`, `password`) VALUES
-(1, 'bala15kvp@gmail.com', '123');
+(1, 'admin@gmail.com', '123');
 
 -- --------------------------------------------------------
 
@@ -60,7 +60,7 @@ CREATE TABLE `employees` (
 --
 
 INSERT INTO `employees` (`id`, `first_name`, `last_name`, `email`, `phone`, `hire_date`) VALUES
-(10, 'Balamurugan', 'K P3', 'bala15kvp@gmail.com', '2414232423', '2024-10-16');
+(10, 'ishu', 'a', 'ishu@gmail.com', '2', '2024-10-16');
 
 --
 -- Indexes for dumped tables
